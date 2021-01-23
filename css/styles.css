@@ -5,8 +5,9 @@
 }
 .contact-form{
     background: #262626;
-    margin: 12% auto 50% !important;
+    margin: 12% auto 10% !important;
     width: 70%;
+    border-radius: 20px;
 }
 .contact-form .form-control{
     border-radius:1rem;
@@ -21,7 +22,7 @@
 
 }
 .contact-form form{
-    padding: 14%;
+    padding: 12% 14% 8% 14%;
 }
 .contact-form form .row{
     margin-bottom: -7%;
@@ -126,7 +127,7 @@
 /* The top */
 .top-down-arrow
 {
-  position:absolute;
+  position:relative;
   color: #0097BD;
   opacity: 30% !important;
   left: 45%;
@@ -138,7 +139,7 @@
 }
 #top-section .top-section-info-position
 {
-    margin: 70% auto 15% auto;
+    margin: 30% auto 15% auto;
     background-color: #00141C;
     padding: 2rem;
     border-radius: 25px;
@@ -158,11 +159,11 @@
 {
   border-radius: 100%;
   width: 50%;
-  margin: 70% auto 15% 30%;
+  margin: 30% auto 15% 30%;
 }
 .top-row
 {
-  padding-bottom: 25%;
+  padding-bottom: 6%;
 }
 .top-hr
 {
