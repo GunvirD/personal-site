@@ -1,93 +1,4 @@
-/* ==================CONTACT.HTML============================ */
-.body-dark
-{
-  background-color: #00080A;
-}
-.contact-form{
-    background: #262626;
-    margin: 12% auto 10% !important;
-    width: 70%;
-    border-radius: 20px;
-}
-.contact-form .form-control{
-    border-radius:1rem;
-}
-.contact-image{
-    text-align: center;
-}
-.contact-image img{
-    border-radius: 6rem;
-    width: 15%;
-    margin-top: -3%;
 
-}
-.contact-form form{
-    padding: 12% 14% 8% 14%;
-}
-.contact-form form .row{
-    margin-bottom: -7%;
-}
-.contact-form h3{
-    margin-bottom: 8%;
-    margin-top: -10%;
-    text-align: center;
-    color: white;
-}
-
-.form-submit-button
-{
-  width: 20rem;
-  margin: auto 60%;
-  text-align: center;
-}
-
-
-
-
-/* =======================LEARN.HTML========================== */
-.card
-{
-  margin: 70% auto 50%;
-  background-color: #262626 !important;
-  color: white !important;
-  border-radius: 7% !important;
-}
-.item-center-heading
-{
-  margin-top: 5%;
-  text-align: center;
-}
-.item-center-button-1
-{
-  margin-bottom: 5%;
-  text-align: center;
-}
-.item-left
-{
-  text-align: left;
-  width:80%;
-  margin: auto;
-}
-.card-body-text
-{
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-.btn
-{
-  margin-top: 10%;
-}
-
-@media screen and (max-width: 1000px)
-{
-  .card
-  {
-    margin: 15% auto 10%;
-    background-color: #262626 !important;
-    color: white !important;
-    border-radius: 7% !important;
-  }
-}
 
 /* =======================INDEX.HTML========================== */
 
@@ -185,19 +96,6 @@
       margin:20% auto;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* The middle */
@@ -329,16 +227,6 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Universal code */
 .container
