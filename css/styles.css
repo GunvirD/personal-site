@@ -244,3 +244,7 @@
 {
   font-family: 'Poppins', sans-serif;
 }
+.bold
+{
+  font-weight: bold !important;
+}

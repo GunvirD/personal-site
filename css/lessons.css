@@ -1,0 +1,254 @@
+.top
+{
+  background-color: #00080A;
+}
+/* Desc */
+.slide
+{
+  margin-bottom: 5rem;
+  border:none;
+}
+.hr-bottom
+{
+  border-style: dotted;
+  border-top: 100px;
+  border-width: 10px;
+  width: 3%;
+  margin: 2rem auto;
+  color:#0097BD;
+}
+.summary-title
+{
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+.summary-body
+{
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.info-head
+{
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.info-body
+{
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.video-desc
+{
+  width: 90%;
+  margin: 5% 10% auto 5%;
+}
+
+/* ============== */
+.iframe-video-container
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe-video
+{
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-blue:hover, .bg-blue:hover
+{
+  color: #0097BD !important;
+  transition: 0.3s;
+}
+/* Back Button */
+.page-back-button:hover
+{
+  color:#0097BD;
+  transition: 0.3s;
+}
+
+
+.page-back
+{
+  position: absolute;
+  padding-top: 4rem;
+  margin-left: 5%;
+
+}
+.page-back-detail
+{
+  margin: auto 15%;
+  font-size: 2rem;
+}
+
+/* Title */
+.title-hr
+{
+  width: 30%;
+  height:0.2rem;
+  background-color:#0097BD;
+}
+.page-title
+{
+  margin: auto;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 3rem !important;
+  color: white;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .page-back
+  {
+    position: relative;
+    top: 40px;
+    margin: auto;
+    margin-left: 46%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar */
+.navbar-bg
+{
+  background-color: #00080A;
+}
+.nav-link
+{
+  color: #f7f7e8 !important;
+}
+.nav-link:hover
+{
+  color: #0097BD !important;
+}
+
+
+.navbar-brand
+{
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  margin-left: 2rem;
+  letter-spacing: 4px;
+  color: #f7f7e8 !important;
+}
+.nav-link
+{
+  font-size: 1.2rem !important;
+}
+.navbar-nav
+{
+  margin-right: 2rem;
+}
+
+
+/* Universal code */
+.basic-button
+{
+  color:white;
+  background: none;
+  border: none;
+  outline: none !important;
+}
+.container
+{
+  width: 70%;
+  margin: auto;
+}
+/* Fonts */
+.ubuntu,
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.poppins, .poppin
+{
+  font-family: 'Poppins', sans-serif;
+}
+.bold
+{
+  font-weight: bold !important;
+  font-size: 2rem;
+}
+
+
+/* Footer */
+.container-footer
+{
+  padding: 0rem;
+  text-align: center;
+}
+.icon-footer
+{
+  margin: 2%;
+  color: #00080A;
+}
+.icon-footer:hover
+{
+  margin: 2%;
+  color: #0097BD;
+}
+.footer-copyright
+{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
