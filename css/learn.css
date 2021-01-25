@@ -37,7 +37,7 @@
   background-color: #404040 !important;
   color: white !important;
   border-radius: 7% !important;
-  height: 20rem;
+  height: 25rem;
 }
 .item-center-heading
 {
@@ -149,11 +149,18 @@
 }
 .nav-link
 {
-  color: #f7f7e8 !important;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+.nav-link-a
+{
+  color: #0097BD !important;
+  font-size: 1.2rem !important;
 }
 .nav-link:hover
 {
-  color: #0097BD !important;
+  color: #aec200 !important;
+  transition: 0.3s;
 }
 
 
@@ -165,10 +172,7 @@
   letter-spacing: 4px;
   color: #f7f7e8 !important;
 }
-.nav-link
-{
-  font-size: 1.2rem !important;
-}
+
 .navbar-nav
 {
   margin-right: 2rem;

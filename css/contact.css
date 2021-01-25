@@ -1,4 +1,5 @@
 /* ==================CONTACT.HTML============================ */
+
 .body-dark
 {
   background-color: #00080A;
@@ -281,13 +282,19 @@
 }
 .nav-link
 {
-  color: #f7f7e8 !important;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+.nav-link-a
+{
+  color: #0097BD !important;
+  font-size: 1.2rem !important;
 }
 .nav-link:hover
 {
-  color: #0097BD !important;
+  color: #aec200 !important;
+  transition: 0.3s;
 }
-
 
 .navbar-brand
 {
@@ -297,10 +304,7 @@
   letter-spacing: 4px;
   color: #f7f7e8 !important;
 }
-.nav-link
-{
-  font-size: 1.2rem !important;
-}
+
 .navbar-nav
 {
   margin-right: 2rem;
