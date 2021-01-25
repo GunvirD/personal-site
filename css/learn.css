@@ -1,4 +1,8 @@
 /* =======================LEARN.HTML========================== */
+.no-select
+{
+  cursor: pointer;
+}
 #top-section .top-section-info-position
 {
     margin: 10% auto 0% auto;

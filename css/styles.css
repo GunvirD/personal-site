@@ -1,7 +1,10 @@
 
 
 /* =======================INDEX.HTML========================== */
-
+.no-select
+{
+  cursor: pointer;
+}
 /* Navbar */
 .navbar-bg
 {

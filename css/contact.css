@@ -1,5 +1,8 @@
 /* ==================CONTACT.HTML============================ */
-
+.no-select
+{
+  cursor: pointer;
+}
 .body-dark
 {
   background-color: #00080A;
