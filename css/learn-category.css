@@ -16,17 +16,6 @@
 
 
 
-/* Content Row */
-/* For the course layout */
-.main-text-blue, .main-bg-blue
-{
-  color: #0097BD !important;
-}
-.main-text-blue:hover, .main-bg-blue:hover
-{
-  color: #aec200 !important;
-  transition: 0.3s;
-}
 /*  */
 .text-blue:hover, .bg-blue:hover
 {
@@ -34,22 +23,18 @@
   transition: 0.3s;
 }
 
-.start-button
-{
-  position: absolute;
-  right: 10px;
-  top:10px;
-  z-index: 1;
-}
-.lesson-name
-{
-  position:relative;
-}
+
+
 .play-icon-lesson
 {
   transform: rotate(180deg);
   position:relative;
   bottom: 6px;
+}
+
+.lesson-name
+{
+  position:relative;
 }
 .first-row
 {
@@ -66,11 +51,17 @@
     /* This is 10% because 10 +10 +80 = 100 */
     width: 80%;
     height: 4rem;
-    left: 10%;
+    left: 10% !important;
     /*  */
     border-radius: 18px;
     background-color: #212121;
 
+}
+.coming-soon
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .row-even
 {
@@ -79,19 +70,79 @@
     width: 80%;
     padding: 1rem;
     height: 4rem;
-    left: 10%;
+    left: 10% !important;
     /*  */
     border-radius: 18px;
     background-color: #404040;
 
 }
+.start-button
+{
+  position: absolute;
+  right: 10px;
+  top:10px;
+  z-index: 1;
+}
 
+@media screen and (max-width: 1200px )
+{
+  .row-odd
+  {
+    height: auto;
+  }
+  .row-even
+  {
+    height: auto;
+  }
 
+  .start-button
+  {
+    position: relative;
+    margin: auto auto auto 40%;
+  }
+  .row
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .lesson-name
+  {
+    text-align: center;
+  }
+  .page-back
+  {
+    margin: auto 0 auto 0 !important;
+    padding: auto 0 auto 0 !important;
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
 
+.basic-button
+{
+  color: white;
+  transition: 0.15s linear;
+}
+.basic-button:hover
+{
+  text-decoration: none;
+  color: #0097BD !important;
+  transition: 0.15s;
+}
+/* Content Row */
+/* For the course layout */
+.main-text-blue
+{
+  color: #0097BD !important;
+  transition: 0.15s linear;
+}
 
-
-
-
+.main-text-blue:hover
+{
+  color: #aec200 !important;
+  transition: 0.15s;
+}
 
 
 
@@ -107,7 +158,6 @@
   position: absolute;
   padding-top: 4rem;
   margin-left: 5%;
-
 }
 .page-back-detail
 {
@@ -131,16 +181,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1000px)
-{
-  .page-back
-  {
-    position: relative;
-    top: 40px;
-    margin: auto;
-    margin-left: 46%;
-  }
-}
+
 
 
 
@@ -195,13 +236,7 @@
 
 
 /* Universal code */
-.basic-button
-{
-  color:white;
-  background: none;
-  border: none;
-  outline: none !important;
-}
+
 .container
 {
   width: 70%;

@@ -6,6 +6,17 @@
 {
   cursor: pointer;
 }
+.basic-button
+{
+  color: white;
+  transition: 0.15s linear;
+}
+.basic-button:hover
+{
+  text-decoration: none;
+  color: #0097BD !important;
+  transition: 0.15s;
+}
 /* Desc */
 .slide
 {
